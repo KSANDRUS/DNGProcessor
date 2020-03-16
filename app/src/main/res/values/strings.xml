@@ -1,53 +1,53 @@
-<resources>
-    <string name="app_name">DNG Processor</string>
+< ресурсы >
+    < string  name = " app_name " > Процессор DNG </ string >
 
-    <string name="category_features">Features</string>
-    <string name="pref_manual_select_title">Select manually</string>
-    <string name="pref_manual_select_summary">Pick files to process</string>
-    <string name="pref_reprocess_title">Reprocess</string>
-    <string name="pref_reprocess_summary">The last processed image</string>
+    < string  name = " category_features " > Функции </ string >
+    < string  name = " pref_manual_select_title " > Выбрать вручную </ string >
+    < string  name = " pref_manual_select_summary " > Выбор файлов для обработки </ string >
+    < string  name = " pref_reprocess_title " > Повторная обработка </ string >
+    < string  name = " pref_reprocess_summary " > Последнее обработанное изображение </ string >
 
-    <string name="category_files">Files</string>
-    <string name="pref_background_process_title">Background processing</string>
-    <string name="pref_background_process_desc">Automatically detect new files</string>
-    <string name="pref_delete_original_title">Delete original</string>
-    <string name="pref_delete_original_desc">Remove files that were successfully processed</string>
-    <string name="pref_suffix_title">Add suffix</string>
-    <string name="pref_suffix_desc">Append DNGP to the new file name</string>
-    <string name="pref_save_path_title">Save directory</string>
+    < string  name = " category_files " > Файлы </ string >
+    < string  name = " pref_background_process_title " > Фоновая обработка </ string >
+    < string  name = " pref_background_process_desc " > Автоматически обнаруживать новые файлы </ string >
+    < string  name = " pref_delete_original_title " > Удалить оригинал </ string >
+    < string  name = " pref_delete_original_desc " > Удалить файлы, которые были успешно обработаны </ string >
+    < string  name = " pref_suffix_title " > Добавить суффикс </ string >
+    < string  name = " pref_suffix_desc " > Добавить DNGP к новому имени файла </ string >
+    < string  name = " pref_save_path_title " > Сохранить каталог </ string >
 
-    <string name="category_saturation_map">Saturation map</string>
-    <string name="category_saturation_map_desc">Tweak intensity per hue</string>
-    <string name="pref_saturation_r_title">Red - Skin tones</string>
-    <string name="pref_saturation_y_title">Yellow</string>
-    <string name="pref_saturation_g_title">Green - Grass</string>
-    <string name="pref_saturation_c_title">Cyan - Foliage</string>
-    <string name="pref_saturation_b_title">Blue - Water</string>
-    <string name="pref_saturation_i_title">Indigo - Skies</string>
-    <string name="pref_saturation_v_title">Violet</string>
-    <string name="pref_saturation_m_title">Magenta</string>
-    <string name="pref_saturation_limit_title">Soft limit</string>
-    <string name="pref_saturation_reset_title">Reset</string>
-    <string name="pref_saturation_reset_desc">Restore to default values</string>
+    < string  name = " category_saturation_map " > Карта насыщенности </ string >
+    < string  name = " category_saturation_map_desc " > Интенсивность настройки на оттенок </ string >
+    < string  name = " pref_saturation_r_title " > Красный - Тон кожи </ string >
+    < string  name = " pref_saturation_y_title " > Желтый </ string >
+    < string  name = " pref_saturation_g_title " > Зеленый - трава </ string >
+    < string  name = " pref_saturation_c_title " > Голубой - Листва </ string >
+    < string  name = " pref_saturation_b_title " > Синий - Вода </ string >
+    < string  name = " pref_saturation_i_title " > Индиго - Небеса </ string >
+    < string  name = " pref_saturation_v_title " > Фиолетовый </ string >
+    < string  name = " pref_saturation_m_title " > Пурпурный </ string >
+    < string  name = " pref_saturation_limit_title " > Мягкое ограничение </ string >
+    < string  name = " pref_saturation_reset_title " > Сбросить </ string >
+    < string  name = " pref_saturation_reset_desc " > Восстановить значения по умолчанию </ string >
 
-    <string name="category_pipeline">Pipeline</string>
-    <string name="pref_post_process_title">Post processing mode</string>
-    <string name="post_processing_disabled">Disabled</string>
-    <string name="post_processing_natural">Natural</string>
-    <string name="post_processing_boosted">Boosted</string>
-    <string name="pref_noise_reduce_title">Noise reduction</string>
-    <string name="pref_noise_reduce_desc">Removes chromatic irregularities</string>
-    <string name="pref_lce_title">Local contrast enhancement</string>
-    <string name="pref_lce_desc">Improves details in high dynamic range scenes</string>
-    <string name="pref_ahe_title">Adaptive histogram equalization</string>
-    <string name="pref_ahe_desc">Improves visibility in high dynamic range scenes</string>
-    <string name="pref_forward_matrix_title">Forward matrix</string>
-    <string name="pref_forward_matrix_desc">Device specific tuning</string>
-    <string name="pref_gain_map_title">Gain map</string>
-    <string name="pref_gain_map_desc">Improves dynamic range</string>
+    < string  name = " category_pipeline " > Трубопровод </ string >
+    < string  name = " pref_post_process_title " > Режим постобработки </ string >
+    < string  name = " post_processing_disabled " > Отключено </ string >
+    < string  name = " post_processing_natural " > Natural </ string >
+    < string  name = " post_processing_boosted " > Boosted </ string >
+    < string  name = " pref_noise_reduce_title " > Шумоподавление </ string >
+    < string  name = " pref_noise_reduce_desc " > Удаляет хроматические неровности </ string >
+    < string  name = " pref_lce_title " > Улучшение локальной контрастности </ string >
+    < string  name = " pref_lce_desc " > Улучшает детализацию в сценах с большим динамическим диапазоном </ string >
+    < string  name = " pref_ahe_title " > Адаптивная коррекция гистограммы </ string >
+    < string  name = " pref_ahe_desc " > Улучшает видимость в сценах с большим динамическим диапазоном </ string >
+    < string  name = " pref_forward_matrix_title " > Прямая матрица </ string >
+    < string  name = " pref_forward_matrix_desc " > Индивидуальная настройка устройства </ string >
+    < string  name = " pref_gain_map_title " > Карта усиления </ string >
+    < string  name = " pref_gain_map_desc " > Улучшает динамический диапазон </ string >
 
-    <string name="category_other">Other</string>
-    <string name="pref_donate_title">Donate</string>
-    <string name="pref_donate_desc">Support my work</string>
-    <string name="pref_donate_url">https://play.google.com/store/apps/details?id=amirz.donation</string>
-</resources>
+    < string  name = " category_other " > Другое </ string >
+    < string  name = " pref_donate_title " > Пожертвовать </ string >
+    < string  name = " pref_donate_desc " > Поддержать мою работу </ string >
+    < string  name = " pref_donate_url " > https://play.google.com/store/apps/details?id=amirz.donation </ string >
+</ resources >
